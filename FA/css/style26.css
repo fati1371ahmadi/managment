@@ -1,0 +1,32 @@
+html {
+    font: .9rem;
+}
+
+@media (min-width : 768px) {
+    html {
+        font-style: 1rem !important;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: Vazir;
+    font-weight: 300;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0,0,0,.05);
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+   min-width: 220px;
+}

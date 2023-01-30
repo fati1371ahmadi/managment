@@ -1,0 +1,36 @@
+
+body {
+    font-family: Vazir;
+    text-align: right;
+    direction: rtl;
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+@media (min-width : 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron p:last-child {
+    padding-bottom: 0;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0,0,0,.05)
+}
+
