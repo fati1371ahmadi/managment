@@ -22,15 +22,15 @@ $(document).ready(function(){
             },
              scales : {
                 yAxes : [{
-                  display : false  
+                  display : false
                 }],
                 XAxes : [{
-                    display : false  
+                    display : false
                   }],
              },
-             legend : {
-                display : false
-             }
+            plugins: {
+                legend: false
+            }
         }
     })
 
