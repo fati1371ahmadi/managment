@@ -31,6 +31,9 @@ body {
     #sidebar.collapsing {
         transform: translate(100% , 0);
     }
+    #main {
+        transition: .5s all;
+    }
 }
 
 #sidebar .nav-link {
